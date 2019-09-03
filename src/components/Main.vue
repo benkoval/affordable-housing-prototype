@@ -1,7 +1,7 @@
 <template>
     <main class='mainContainer'>
         <section class='textContainer' id='lorem'>
-            <h2 class='title'>Lorem</h2>
+            <h2 id='lorem-title' class='title'>Lorem</h2>
 
             <p class='text'>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid cumque non quaerat vitae animi? Assumenda nostrum alias corporis fugiat facilis vero ducimus, beatae aliquam, in perferendis, consectetur saepe unde velit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid cumque non quaerat vitae animi? Assumenda nostrum alias corporis fugiat facilis vero ducimus, beatae aliquam, in perferendis, consectetur saepe unde velit.</p>
         </section>
