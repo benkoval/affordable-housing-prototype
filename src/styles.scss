@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:900&display=swap');
+$lato: 'Lato', sans-serif;
+$play: 'Playfair Display', serif;
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.navBar {
+    background-image: linear-gradient(to right, #399aca, #5442f5);
+    width: 100vw;
+    height: 10vh;
+    position: fixed;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.logo {
+    height: 10vh;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    list-style-type: none;
+}
+
+.navOptions {
+    margin: auto;
+    color: #fff;
+    font-size: 1rem;
+    border-bottom: .1rem solid #fff;
+    font-family: $lato;
+    text-transform: uppercase;
+}
+
+
+.mainContainer {
+    display: grid;
+    justify-content: center;
+}
+
+.textContainer {
+    margin: auto;
+}
+.title {
+    font-family: $play;
+    font-size: 4rem;
+    color: #2f3159;
+    text-align: center;
+    padding: 5%;
+    width: 80vw;
+}
+
+.text {
+    color: #2b2b2b;
+    font-size: 1.8rem;
+    line-height: 175%;
+    padding: 5%;
+    font-family: $lato;
+    text-align: center;
+    width: 80vw;
+}
+
+.halfText {
+    color: #2b2b2b;
+    font-size: 1.8rem;
+    line-height: 175%;
+    padding: 5%;
+    font-family: $lato;
+    text-align: center;
+    width: 40vw;
+}
+
+.halfContainer {
+    display: flex;
+}
+.placeKitty {
+    width: 40vw;
+}
