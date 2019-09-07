@@ -17,6 +17,7 @@ html {
     width: 100vw;
     height: 10vh;
     position: fixed;
+    z-index: 99;
 }
 a {
     text-decoration: none;
@@ -63,7 +64,7 @@ ul {
     color: #2f3159;
     text-align: center;
     padding: 5%;
-    width: 80vw;
+    width: 40vw;
 }
 
 .text {
@@ -73,7 +74,7 @@ ul {
     padding: 5%;
     font-family: $lato;
     text-align: center;
-    width: 80vw;
+    width: 40vw;
 }
 
 .halfText {
@@ -91,4 +92,22 @@ ul {
 }
 .placeKitty {
     width: 40vw;
+}
+
+.intro,
+.outro {
+  padding: 20vh;
+}
+
+// additions and overrides of DOM elements vue-scrollama sets up
+.scrollama-container {
+  display: grid;
+  grid-template-areas:
+    "graphic text";
+  
+  .scrollama-graphic {
+    grid-area: text;
+    height: 80vh;
+    top: 10vh;
+  }
 }
