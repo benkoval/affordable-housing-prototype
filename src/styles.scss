@@ -56,20 +56,20 @@ ul {
 }
 
 #lorem-title {
-    margin-top: 8%;
+    margin-top: 10%;
 }
 .title {
     font-family: $play;
     font-size: 4rem;
     color: #2f3159;
     text-align: center;
-    padding: 5%;
+    padding: 10%;
     width: 40vw;
 }
 
 .text {
     color: #2b2b2b;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     line-height: 175%;
     padding: 5%;
     font-family: $lato;
@@ -77,21 +77,14 @@ ul {
     width: 40vw;
 }
 
-.halfText {
-    color: #2b2b2b;
-    font-size: 1.8rem;
-    line-height: 175%;
-    padding: 5%;
-    font-family: $lato;
-    text-align: center;
-    width: 40vw;
-}
-
-.halfContainer {
-    display: flex;
-}
-.placeKitty {
-    width: 40vw;
+// .halfContainer {
+//     display: flex;
+// }
+.mapImg {
+    // width: 40vw;
+    padding-top: 10%;
+    // padding-bottom: 5%;
+    height: 85vh;
 }
 
 .intro,
